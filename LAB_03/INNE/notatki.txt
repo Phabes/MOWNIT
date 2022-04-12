@@ -1,0 +1,10 @@
+Isp - metoda bisekcji - zbijamy liniowo (wolna)
+znak zbadać poprzez signum(f(a)) != signum(f(b))
+a średnią liczymy poprzez wzór c = a + (b-a)/2 - lepszy sposób liczenia średniej
+IIsp - metoda stycznych - zbijamy kwadratowo (szybka) - mało praktyczny bo trzeba pochodną znać
+xn+1 = xn - f(xn)/f'(xn)
+x0=b
+III sp - metoda siecznych - zbijamy kwadratowo (szybka)
+f'(xn)=(f(xn)-f(xn-1))/(xn-xn-1)
+xo=a
+x1=(a+b)/2
