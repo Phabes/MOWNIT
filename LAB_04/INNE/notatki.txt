@@ -1,0 +1,27 @@
+schemat wyżarzania - funkcja spadku temperatury
+przykładowa funkcja spadku: T(i+1)=t(i)*0.99
+b(Ti)e(0,1)
+Poniższy układ można przykładowy z neta
+{b(Ti)
+{1-b(Ti)
+
+Algorytm wykonujemy kilka razy oraz pamiętamy zawsze najlepsze rozwiązanie.
+
+zad 1
+
+stan początkowy: skacze byle jak mu się podoba
+są dwa sposoby zmiany: zamieniamy losowe dwa lub tylko dwa sąsiednie
+
+Należy pokazać początkowy stan, końcowy oraz wykres f(t) - ten co w paincie zrobiony
+f - funkcja kosztu (w komiwojażerze - odległość)
+
+zad 2
+stan początkowy: rysujemy czarne punkty
+W tym zadaniu własne prawa fizyki definiujemy
+Na początku definiujemy sąsiedztwo każdego punktu
+Rozmiar minimalny 256x256
+Na planszy ma ciągle być stała liczba punktów
+Dla najciekawszej fizyki (tej samej konfiguracji i energii) zmieniamy funkcję spadku temperatury
+
+zad 3
+trudne plansze sudoku (pobawić się parametrami)
