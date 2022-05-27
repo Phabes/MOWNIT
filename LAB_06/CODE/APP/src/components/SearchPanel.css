@@ -1,0 +1,44 @@
+#searchPanel {
+  height: 100%;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#searchSelect {
+  width: 50px;
+  height: 40%;
+}
+
+#searchInput {
+  width: 500px;
+  height: 40%;
+  font-size: 20px;
+}
+
+#searchButton {
+  width: 100px;
+  height: 40%;
+  cursor: pointer;
+  background-color: #079191;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: background-color 0.6s;
+}
+
+#searchButton:hover {
+  background-color: #15b3b3;
+}
+
+@media (max-width: 700px) {
+  #searchPanel {
+    width: 100%;
+    justify-content: space-around;
+  }
+  #searchInput {
+    width: calc(90% - 150px);
+  }
+}

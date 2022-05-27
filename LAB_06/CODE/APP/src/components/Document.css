@@ -1,0 +1,16 @@
+.singleDocument {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: #353535;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.singleDocument:first-child {
+  margin-top: 0;
+}
