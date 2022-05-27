@@ -1,0 +1,19 @@
+A = UEV^(T) = sum(sigmai*)
+          od i=1 do r
+UeR^(mxm) - ortonormalna
+EeR^(mxn) - diagagonalna
+VeR^(nxn) - ortonormalna
+
+Odwzorowanie liniowe można skalować i rotować.
+
+Mnożenie przez macierz ortogonalną rotuje, a diagonalną skaluje.
+
+Operacje zaczynamy od końca.
+1) Vx - rotacja
+2) E*(Vx) - skalowanie
+3) U*(EVx) - rotacja
+
+
+W pythonie:
+u, s, vh = np.linalg.svd(matrix)
+matrix = u @ np.diag(s) @ vh
